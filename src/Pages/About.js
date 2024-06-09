@@ -1,13 +1,10 @@
 import React from "react";
 import Work from "../Components/Work";
-import ImageUploader from "../Components/ImageUploader";
-
 import {
-  personalDetails,
-  workDetails,
-  eduDetails,
   eduOrganizational,
-  eduInformation,
+  eduDetails,
+  workDetails,
+  personalDetails,
 } from "../Details";
 
 function About() {
@@ -36,6 +33,7 @@ function About() {
           ))
         )}
       </section>
+
       <section>
         <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           Education Level
@@ -59,14 +57,14 @@ function About() {
         </h1>
         {React.Children.toArray(
           eduOrganizational.map(
-            ({ Position, Company, Location, Type, Duration, Image }) => (
+            ({ Position, Company, Location, Type, Duration, image }) => (
               <Work
                 position={Position}
                 company={Company}
                 location={Location}
                 type={Type}
                 duration={Duration}
-                image={Image}
+                image={image}
               />
             )
           )

@@ -38,6 +38,44 @@ import projectImage4 from "./assets/projects/project4.jpg";
 import projectImage5 from "./assets/projects/project5.jpg";
 import projectImage6 from "./assets/projects/project6.jpg";
 
+//ImaageOrganization
+import presidentImage from "./assets/organization/president.jpg";
+import presidentImage2 from "./assets/organization/president2.jpg";
+import presidentImage3 from "./assets/organization/president3.jpg";
+import presidentImage4 from "./assets/organization/president4.jpeg";
+import maroonday from "./assets/organization/maroonday.jpeg";
+import maroonday2 from "./assets/organization/maroonday2.jpeg";
+import maroonday3 from "./assets/organization/maroonday3.jpeg";
+import maroonday4 from "./assets/organization/maroonday4.jpeg";
+import demak from "./assets/organization/demak.jpeg";
+import demak2 from "./assets/organization/demak2.jpeg";
+import demak3 from "./assets/organization/demak3.jpeg";
+import demak4 from "./assets/organization/demak4.jpeg";
+import kuliahumum from "./assets/organization/kuliahumum.jpeg";
+import kuliahumum2 from "./assets/organization/kuliahumum2.jpeg";
+import kuliahumum3 from "./assets/organization/kuliahumum3.jpeg";
+import kuliahumum4 from "./assets/organization/kuliahumum4.jpeg";
+import lk from "./assets/organization/lk.jpeg";
+import lk2 from "./assets/organization/lk2.jpeg";
+import lk3 from "./assets/organization/lk3.jpeg";
+import lk4 from "./assets/organization/lk4.jpeg";
+import baksos from "./assets/organization/baksos.jpeg";
+import baksos2 from "./assets/organization/baksos2.jpeg";
+import baksos3 from "./assets/organization/baksos3.jpeg";
+import baksos4 from "./assets/organization/baksos4.jpeg";
+import mubes from "./assets/organization/mubes.jpeg";
+import mubes2 from "./assets/organization/mubes2.jpeg";
+import mubes3 from "./assets/organization/mubes3.jpeg";
+import mubes4 from "./assets/organization/mubes4.jpeg";
+import kulum from "./assets/organization/kulum.jpeg";
+import kulum2 from "./assets/organization/kulum2.jpeg";
+import kulum3 from "./assets/organization/kulum3.jpeg";
+import kulum4 from "./assets/organization/kulum4.jpeg";
+import pemuda from "./assets/organization/pemuda.jpeg";
+import pemuda2 from "./assets/organization/pemuda2.jpeg";
+import pemuda3 from "./assets/organization/pemuda3.jpeg";
+import pemuda4 from "./assets/organization/pemuda4.jpeg";
+
 // Logos
 export const logos = {
   logogradient: logogradient,
@@ -115,6 +153,7 @@ export const eduOrganizational = [
     Location: "Yogyakarta",
     Type: "President",
     Duration: "Aug 2023 - Present",
+    image: [presidentImage, presidentImage2, presidentImage3, presidentImage4],
   },
   {
     Position: "Person Responsible",
@@ -124,6 +163,7 @@ export const eduOrganizational = [
     Location: "Yogyakarta",
     Type: "Person Responsible",
     Duration: "Feb 2024 - May 2024",
+    image: [maroonday, maroonday2, maroonday3, maroonday4],
   },
   {
     Position: "Person Responsible",
@@ -131,6 +171,7 @@ export const eduOrganizational = [
     Location: "Yogyakarta",
     Type: "Person Responsible",
     Duration: "Mar 2024",
+    image: [demak, demak3, demak2, demak4],
   },
   {
     Position: "Person Responsible",
@@ -138,6 +179,7 @@ export const eduOrganizational = [
     Location: "Yogyakarta",
     Type: "Person Responsible",
     Duration: "Dec 2023 - Jan 2024",
+    image: [kuliahumum, kuliahumum2, kuliahumum3, kuliahumum4],
   },
   {
     Position: "Person Responsible",
@@ -145,6 +187,7 @@ export const eduOrganizational = [
     Location: "Yogyakarta",
     Type: "Person Responsible",
     Duration: "Sep 2023 - Oct 2023",
+    image: [lk, lk2, lk3, lk4],
   },
   {
     Position: "Coordination Sie Events",
@@ -152,6 +195,7 @@ export const eduOrganizational = [
     Location: "Yogyakarta",
     Type: "Person Responsible",
     Duration: "Feb 2023 - Mar 2023",
+    image: [baksos, baksos2, baksos3, baksos4],
   },
   {
     Position: "Secretary",
@@ -159,6 +203,7 @@ export const eduOrganizational = [
     Location: "Yogyakarta",
     Type: "Secretary",
     Duration: "Jul 2023 - Aug 2023",
+    image: [mubes, mubes2, mubes3, mubes4],
   },
   {
     Position: "Coordination Sie Events",
@@ -166,6 +211,7 @@ export const eduOrganizational = [
     Location: "Yogyakarta",
     Type: "Coordination Sie Events",
     Duration: "Nov 2022 - Dec 2022",
+    image: [kulum, kulum2, kulum3, kulum4],
   },
   {
     Position: "Vice Chairman",
@@ -173,6 +219,7 @@ export const eduOrganizational = [
     Location: "Klaten",
     Type: "Vice Chairman",
     Duration: "Jun 2021 - Jun 2023",
+    image: [pemuda, pemuda2, pemuda3, pemuda4],
   },
 ];
 
