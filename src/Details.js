@@ -301,8 +301,8 @@ export const projectDetails = [
     image: projectImage6,
     description: `The Portfolio website uses React to display my personal data..`,
     techstack: "React, HTML, Tailwind, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    previewLink: "https://maul-portofolio.vercel.app/",
+    githubLink: "https://github.com/Maulana-latifnabil/Web-portofolio.git",
   },
 ];
 

@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import gsap from "gsap";
 import { personalDetails } from "../Details";
+import "./Home.css"; // Import the CSS file
 
 function Home() {
   const { name, tagline, img } = personalDetails;
@@ -85,10 +86,10 @@ function Home() {
           {tagline}
         </h2>
       </div>
-      <div className="mt-10 md:mt-0 w-3/4 sm:w-2/3 md:w-1/2 lg:w-1/3">
+      <div className="bubble-container mt-10 md:mt-0 w-3/4 sm:w-2/3 md:w-1/2 lg:w-1/3">
         <img
           ref={myimageref}
-          className="w-full h-auto rounded-full mx-auto"
+          className="w-full h-auto rounded-full mx-auto shadow-lg"
           src={img}
           alt="Maulana Latifnabil"
         />

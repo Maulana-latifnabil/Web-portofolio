@@ -1,0 +1,76 @@
+/* CSS for bubbles around the image */
+.bubble-container {
+    position: relative;
+}
+
+.bubbles {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.bubble {
+    position: absolute;
+    bottom: -50px;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(45deg, #4ecdc4, #556270);
+    /* Gradient color for bubble */
+    border-radius: 50%;
+    animation: rise 5s infinite ease-in-out;
+    opacity: 0.8;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    /* Adding shadow for depth */
+}
+
+.bubble:nth-child(2) {
+    width: 20px;
+    height: 20px;
+    left: 20%;
+    animation-duration: 7s;
+}
+
+.bubble:nth-child(3) {
+    width: 30px;
+    height: 30px;
+    left: 40%;
+    animation-duration: 6s;
+}
+
+.bubble:nth-child(4) {
+    width: 50px;
+    height: 50px;
+    left: 60%;
+    animation-duration: 4s;
+}
+
+.bubble:nth-child(5) {
+    width: 25px;
+    height: 25px;
+    left: 80%;
+    animation-duration: 8s;
+}
+
+@keyframes rise {
+    0% {
+        bottom: 0;
+        transform: translateX(0);
+        opacity: 0.8;
+    }
+
+    50% {
+        transform: translateX(-20px);
+        opacity: 0.4;
+    }
+
+    100% {
+        bottom: 100%;
+        transform: translateX(20px);
+        opacity: 0;
+    }
+}
