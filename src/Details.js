@@ -99,7 +99,7 @@ databases. Currently I have the desire to develop my skills in the IT field agai
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
   linkdein: "https://www.linkedin.com/in/maulana-latifnabil-5a57952a8/",
-  github: "https://github.com/Maulana-coder/",
+  github: "https://github.com/Maulana-latifnabil",
   instagram: "https://www.instagram.com/m4ullate?igsh=aTBvdWVvOGVqaWpr/",
 };
 
@@ -110,7 +110,7 @@ export const workDetails = [
     Company: `Universitas Teknologi Digital Indonesia`,
     Location: "Yogyakarta",
     Type: "Full Time",
-    Duration: "Mar 2024 - Present",
+    Duration: "Mar 2024 - Jul 2024",
   },
   {
     Position: "Personal Data Security",
@@ -152,7 +152,7 @@ export const eduOrganizational = [
     Company: `Informatics Student Association`,
     Location: "Yogyakarta",
     Type: "President",
-    Duration: "Aug 2023 - Present",
+    Duration: "Aug 2023 - Aug 2024",
     image: [presidentImage, presidentImage2, presidentImage3, presidentImage4],
   },
   {
@@ -262,7 +262,7 @@ export const projectDetails = [
     description: `Prambanan temple history Application.`,
     techstack: "Flutter",
     previewLink: "https://google.com",
-    githubLink: "https://github.com/Maulana-coder/Prambanan.git",
+    githubLink: "https://github.com/Maulana-latifnabil/prambanan_app.git",
   },
   {
     title: "Project Restaurant menu Aplication",
@@ -270,7 +270,7 @@ export const projectDetails = [
     description: `Has a login feature, restaurant profile, restaurant menu, number of orders and order results.`,
     techstack: "Flutter",
     previewLink: "https://google.com",
-    githubLink: "https://github.com/Maulana-coder/restaurant-app.git",
+    githubLink: "https://github.com/Maulana-latifnabil/restaurant-app.git",
   },
   {
     title: "Himaforka Web",
@@ -278,7 +278,7 @@ export const projectDetails = [
     description: `Web information about the Indonesian Digital Technology University Informatics Student Association`,
     techstack: "HTML, CSS, JavaScript",
     previewLink: "https://maulana-coder.github.io/web-himaforkaV2/",
-    githubLink: "https://github.com/Maulana-coder/web-himaforkaV2.git",
+    githubLink: "https://github.com/Maulana-latifnabil/Web-HIMAFORKA.git",
   },
   {
     title: "Project Klaja Mart",
@@ -286,7 +286,7 @@ export const projectDetails = [
     description: `Klaja Mall web project containing bags, electronics, fashion, food, laptops, mobile, shoes, shop, signs, index`,
     techstack: "HTML, Bootstrap, JavaScript",
     previewLink: "https://maulana-coder.github.io/Klaja-Mart/",
-    githubLink: "https://github.com/Maulana-coder/Klaja-Mart.git",
+    githubLink: "https://github.com/Maulana-latifnabil/Klaja-Web.git",
   },
   {
     title: "Project Klaja Thrift",
